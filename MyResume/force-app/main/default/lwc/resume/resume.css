@@ -1,0 +1,132 @@
+/* Generated CSS */
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: linear-gradient(135deg, #e4f9f5 0%, #f1f4ff 100%), url('https://www.transparenttextures.com/patterns/45-degree-fabric-light.png');
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Updated header styles */
+.header {
+    background: linear-gradient(135deg, #ff5f6d, #ffc371); /* Gradient background with appealing colors */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header .info {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.header:hover {
+    background: linear-gradient(135deg, #ff7a65, #fdd479); /* Updated gradient on hover */
+    transform: scale(1.02);
+}
+
+/* Add a slight rotation effect on hover */
+.header:hover h1 {
+    transform: rotate(-3deg);
+}
+
+/* Adjust text color for better readability */
+.header,
+.header h1,
+.header .info {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+}
+
+/* Unchanged CSS styles */
+.info {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.section {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0078d4;
+    padding-bottom: 20px;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.heading {
+    font-size: 24px;
+    color: #0078d4;
+    margin: 20px 0 10px;
+}
+
+/* New animation for h2 tags */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+h2:hover {
+    color: #ff4081;
+    text-shadow: 0 2px 4px rgba(255, 64, 129, 0.5);
+    transition: color 0.3s, text-shadow 0.3s;
+    /* Add the bounce animation on hover */
+    animation: bounce 0.5s;
+}
+
+.content li {
+    color: #333;
+    margin-bottom: 8px;
+    list-style: disc;
+}
+
+.subsection {
+    margin-bottom: 16px;
+}
+
+a:hover {
+    color: #009688;
+}
+
+.section:hover {
+    background-color: #fafafa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 40px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .container {
+        padding: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* Add more CSS styles here as needed */
