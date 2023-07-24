@@ -98,7 +98,7 @@ h2:hover {
 .content li {
     color: #333;
     margin-bottom: 8px;
-    list-style: disc;
+    list-style: circle;
 }
 
 .subsection {
